@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1076007103221418290}
   - component: {fileID: 1076007103221418293}
   - component: {fileID: 5087396460582775801}
+  - component: {fileID: 8092062098945392621}
   m_Layer: 0
   m_Name: Notes
   m_TagString: Untagged
@@ -110,7 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveTime: 1
-  destination: {fileID: 0}
   lostPosition: {fileID: 0}
   speed: 20
 --- !u!54 &5087396460582775801
@@ -129,3 +129,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8092062098945392621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076007103221418292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee65272016d634b489b3daef00ff0a44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  track: 4
+  tapEventGameObj: {fileID: 0}

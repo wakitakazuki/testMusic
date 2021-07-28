@@ -46,5 +46,7 @@ public class TapL : MonoBehaviour
     public void Tap()
     {
         Default();
+        this.enabled = true;
+
     }
 }
