@@ -20,7 +20,7 @@ public class MainScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //現在はタップ判定を用いていないため、キーコードを取得。
         if (Input.GetKeyDown(KeyCode.Q))
         {
             linecolor1.GetComponent<TapL>().Tap();
