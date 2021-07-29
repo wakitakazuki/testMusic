@@ -6,6 +6,7 @@ public class TapL : MonoBehaviour
 {
     public float speed = 1.0f;
     private new Renderer renderer;
+    private bool Lf=false;
 
     private void Awake()
     {

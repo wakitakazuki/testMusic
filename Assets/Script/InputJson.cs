@@ -25,18 +25,21 @@ public class Notes
 
 public class InputJson : MonoBehaviour
 {
+    [SerializeField] private Transform[] notepoints;
+    [SerializeField] private Longline longline;
     public GameObject notepref;
-    public GameObject Notes;
+    public GameObject lineOBJ;
     // Start is called before the first frame update
     void Start()
     {
         string inputString = Resources.Load<TextAsset>("NoteJson/test1").ToString();
         Debug.Log(inputString);
         Humen inputJson = JsonUtility.FromJson<Humen>(inputString);
+        longline = lineOBJ.GetComponent<Longline>();
         for (int a = 0; a < inputJson.notes.Length; a++)
         {
 
-
+            
 
             //Instantiate(notepref, new Vector3(-4 + inputJson.notes[a].block * 2f, 0f, 40 + inputJson.notes[a].num * 60 / inputJson.BPM * 10f), Quaternion.identity);
             notepref.GetComponent<NotesController>().SetTrack((Track)inputJson.notes[a].block + 1);
@@ -52,8 +55,9 @@ public class InputJson : MonoBehaviour
 
                     notepref.GetComponent<NotesController>().SetTrack((Track)inputJson.notes[a].block + 1);
 
-                    Instantiate(notepref, new Vector3(-4 + m_note[i].block * 2f, 0.5f, 40 + ((m_note[i].num * 600) / inputJson.BPM)/* * 1.0f*/), Quaternion.identity);
-
+                    GameObject gameobject=Instantiate(notepref, new Vector3(-4 + m_note[i].block * 2f, 0.5f, 40 + ((m_note[i].num * 600) / inputJson.BPM)/* * 1.0f*/), Quaternion.identity);
+                    //notepoints[i] = gameobject.transform;
+                    //longline.SetupLine(notepoints);
                 }
 
             }
