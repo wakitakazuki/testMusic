@@ -334,6 +334,24 @@ MonoBehaviour:
   linecolor3: {fileID: 1879338909}
   linecolor4: {fileID: 1848571759}
   linecolor5: {fileID: 1948478214}
+--- !u!1 &120740292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8432413609468787349, guid: c75fafbf109f4ce469bc3b2cff358d29, type: 3}
+  m_PrefabInstance: {fileID: 2118343601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &120740296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120740292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fcbde09bbe6504ab1e214956637e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioObject: {fileID: 1562884156}
 --- !u!1 &145877013
 GameObject:
   m_ObjectHideFlags: 0
