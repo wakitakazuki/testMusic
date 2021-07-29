@@ -10,6 +10,7 @@ public class TapL : MonoBehaviour
     private void Awake()
     {
         renderer = GetComponent<Renderer>();
+        
     }
 
     private void OnEnable()
@@ -47,6 +48,7 @@ public class TapL : MonoBehaviour
     {
         Default();
         this.enabled = true;
+        Debug.Log("Tap");
 
     }
 }
