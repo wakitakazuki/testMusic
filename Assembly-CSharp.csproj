@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <LangVersion>8.0</LangVersion>
+=======
+    <LangVersion>7.3</LangVersion>
+>>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +57,12 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+=======
+>>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\InputNotesByKeyboardPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\System\IObserver.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\TimeInterval.cs" />
@@ -103,6 +110,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Sample.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\ToggleClapSoundEffectEnablePresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Return.cs" />
+    <Compile Include="Assets\Script\MyaScript\TapEvent.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\LifetimeDisposableExtensions.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\TakeWhile.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\PairWise.cs" />
@@ -235,6 +243,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Time.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\InternalUtil\ListObserver.cs" />
+    <Compile Include="Assets\Script\MyaScript\MoveController.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\ToggleEditTypePresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Throw.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\SerialDisposable.cs" />
@@ -257,6 +266,7 @@
     <Compile Include="Assets\Script\NotesController.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
+    <Compile Include="Assets\Script\MyaScript\JudgementType.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Throttle.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\BPMSpinBoxPresenter.cs" />
@@ -369,6 +379,10 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\StartWith.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Last.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Script\MyaScript\Test_Mya.cs" />
+>>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NoteEditor-master\Assets\Shaders\Waveform.shader" />
@@ -377,7 +391,11 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
+<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+=======
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+>>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
@@ -596,13 +614,21 @@
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
+<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+=======
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+>>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+=======
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+>>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
@@ -950,7 +976,11 @@
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Serialization">
+<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+=======
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+>>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
