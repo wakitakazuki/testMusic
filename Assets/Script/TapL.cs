@@ -6,7 +6,7 @@ public class TapL : MonoBehaviour
 {
     public float speed = 1.0f;
     private new Renderer renderer;
-    private bool Lf=false;
+    private bool Lf = false;
 
     private void Awake()
     {
@@ -40,8 +40,11 @@ public class TapL : MonoBehaviour
         }
         else
         {
-            var alfa = renderer.material.color.a - speed * Time.deltaTime;
-            renderer.material.color = new Color(renderer.material.color.r, renderer.material.color.g, renderer.material.color.b, alfa);
+            if (Lf == false)
+            {
+                var alfa = renderer.material.color.a - speed * Time.deltaTime;
+                renderer.material.color = new Color(renderer.material.color.r, renderer.material.color.g, renderer.material.color.b, alfa);
+            }
         }
     }
 
@@ -50,6 +53,11 @@ public class TapL : MonoBehaviour
         Default();
         this.enabled = true;
         Debug.Log("Tap");
+        Lf = true;
 
+    }
+    public void Exit()
+    {
+        Lf = false;
     }
 }

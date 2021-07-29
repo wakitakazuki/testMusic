@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<<<<<<< HEAD
     <LangVersion>8.0</LangVersion>
-=======
-    <LangVersion>7.3</LangVersion>
->>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -57,21 +53,14 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-=======
->>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\InputNotesByKeyboardPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\System\IObserver.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\TimeInterval.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\LPBSpinBoxPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\ContinueWith.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\MainThreadScheduler.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\GridLineRenderer.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Concurrency.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\EditState.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\ToArray.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Single.cs" />
@@ -86,7 +75,6 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Synchronize.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\StableCompositeDisposable.cs" />
     <Compile Include="Assets\Script\Longline.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Utility\UIBehaviourExtensions.cs" />
     <Compile Include="Assets\Script\Move.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\CancellationDisposable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Timeout.cs" />
@@ -94,21 +82,16 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\TypedMonoBehaviour.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Aggregate.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableSubmitTrigger.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\Line.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\SingleAssignmentDisposable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\ToObservable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\CancellationToken.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Settings\SettingWorkSpacePathPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\System\IObservable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCanvasGroupChangedTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\CoroutineAsyncBridge.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\WaveformRenderer.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\VolumePresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Subjects\SubjectExtensions.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Do.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Sample.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\ToggleClapSoundEffectEnablePresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Return.cs" />
     <Compile Include="Assets\Script\MyaScript\TapEvent.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\LifetimeDisposableExtensions.cs" />
@@ -122,22 +105,16 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\AsObservable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\InternalUtil\ImmutableList.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Tasks\TaskObservableExtensions.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\MusicSelector.cs" />
+    <Compile Include="Assets\Script\MyaScript\Test_Mya.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTransformChangedTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Notifiers\MessageBroker.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UnityEventExtensions.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\AsyncOperationExtensions.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Zip.cs" />
+    <Compile Include="Assets\Script\test1.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDropTrigger.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Common\EditCommandManager.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\SettingsSerializer.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Common\CommandManager.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\DTO\MusicDTO.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Common\PlaybackPositionPresenter.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\CanvasEvents.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Awaiter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\BatchFrame.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\EditNotesPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Notifiers\BooleanNotifier.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Aggregate.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableRectTransformTrigger.cs" />
@@ -148,19 +125,13 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Timestamped.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Paging.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Subjects\ConnectableObservable.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\GLLineDrawer.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\TakeUntil.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ObservableMonoBehaviour.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\MusicSelector\FileListItem.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Settings\InputNoteKeyCodeSettingsItem.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\MusicSelector\MusicLoader.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Schedulers\ImmediateScheduler.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Cast.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Common\SmoothedTimeSamplesPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Concatenate.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Skip.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\OperatorObservableBase.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\BeatOffsetSpinBoxPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\ObserveOn.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\WhenAll.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Range.cs" />
@@ -172,11 +143,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Schedulers\ThreadPoolScheduler.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\RepeatSafe.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDeselectTrigger.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\NoteRenderer.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\TogglePlayPausePresenter.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Utility\SingletonMonoBehaviour.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMouseTrigger.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\EditData.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\TimeInterval.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\System\IOptimizedObservable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\SampleFrame.cs" />
@@ -187,22 +154,16 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Dematerialize.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateSelectedTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Binding.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\EditSectionHandlePresenter.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\EditDataSerializer.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\Audio.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableCollision2DTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Start.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\TakeLast.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Examples\Sample09_EventHandling.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\FrameInterval.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Select.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\MusicSelector\ChangeLocationCommandManager.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Defer.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.FromAsync.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Subjects\Subject.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\SoundEffect\ClapSoundPlayer.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UniRxSynchronizationContext.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\RangeSelectionPresenter.cs" />
     <Compile Include="Assets\Script\Track.cs" />
     <Compile Include="Assets\Script\InputJson.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEventTrigger.cs" />
@@ -213,7 +174,6 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Scan.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs" />
     <Compile Include="Assets\Script\MainScript.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\EditorState.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\OperatorObserverBase.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\ZipLatest.cs" />
@@ -227,24 +187,17 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTrigger2DTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\DelayFrameSubscription.cs" />
     <Compile Include="Assets\Script\Audioset.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Notes\NoteTypes.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\BeatNumberRenderer.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Examples\Sample05_ConvertFromCoroutine.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDestroyTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Notifiers\ScheduledNotifier.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Notes\Note.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ScenePlaybackDetector.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\ForEachAsync.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Common\SpinBoxPresenterBase.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Notes\NotePosition.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\DTO\SettingsDTO.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerBase.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\ToList.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Time.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEnableTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\InternalUtil\ListObserver.cs" />
     <Compile Include="Assets\Script\MyaScript\MoveController.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\ToggleEditTypePresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Throw.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\SerialDisposable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\OfType.cs" />
@@ -258,26 +211,20 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveCommand.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\ICancelable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFrame.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\Geometry.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableLateUpdateTrigger.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Common\Command.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntryExtensions.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\Settings.cs" />
     <Compile Include="Assets\Script\NotesController.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableTriggerTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableEndDragTrigger.cs" />
     <Compile Include="Assets\Script\MyaScript\JudgementType.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\MultipleAssignmentDisposable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Throttle.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\BPMSpinBoxPresenter.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Notes\NoteObject.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\System\Unit.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Never.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Catch.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\ThreadPoolScheduler_UnityWinRT.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\FromEvent.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Examples\Sample06_ConvertToCoroutine.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\CanvasOffsetXPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\SubscribeOnMainThread.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Where.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveDictionary.cs" />
@@ -292,19 +239,12 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Examples\Sample13_ToDoApp.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\UnityUIComponentExtensions.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Subjects\ReplaySubject.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\GLDrawing\GLQuadDrawer.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\FileItemInfo.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Switch.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\MainThreadDispatcher.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Utility\ConvertUtils.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Save\SavePresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\CombineLatest.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\NoteCanvas.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\InternalUtil\AscynLock.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\CompositeDisposable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ReactiveCollection.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Settings\SettingMaxBlockSpinBoxPresenter.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\CanvasWidthScalePresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\FrameTimeInterval.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\SkipWhile.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Finally.cs" />
@@ -314,15 +254,12 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\DistinctUntilChanged.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Examples\Sample01_ObservableWWW.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\AsSingleUnitObservable.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\MusicNameTextPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\InternalUtil\ThreadSafeQueueWorker.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservablePointerUpTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\ThrottleFirstFrame.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\NoteCanvas\EditSectionPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Creation.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\WithLatestFrom.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableDragTrigger.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\ToggleDisplaySettingsPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Subjects\AsyncSubject.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\InternalUtil\ReflectionAccessor.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableFixedUpdateTrigger.cs" />
@@ -357,21 +294,17 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.ErrorHandling.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\EventPattern.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\AsUnitObservable.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Toolstrip\ToggleWaveformDisplayPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Distinct.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\Settings\SettingsWindowPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\InternalUtil\ScheduledItem.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\PresenterBase.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\TimeoutFrame.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\Logger.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Utility\KeyInput.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\ObservableWWW.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Delay.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\DisposableExtensions.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\ScheduledDisposable.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableMoveTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableDebugExtensions.cs" />
-    <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Presenter\MusicSelector\MusicSelectorPresenter.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Examples\Sample11_Logger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Take.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Disposables\Disposable.cs" />
@@ -379,10 +312,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\StartWith.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Last.cs" />
-<<<<<<< HEAD
-=======
-    <Compile Include="Assets\Script\MyaScript\Test_Mya.cs" />
->>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
+    <Compile Include="Assets\ReadMe.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NoteEditor-master\Assets\Shaders\Waveform.shader" />
@@ -391,11 +321,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
-=======
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
->>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
@@ -614,21 +540,13 @@
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
-<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-=======
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
->>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-=======
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
->>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
@@ -976,11 +894,7 @@
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Serialization">
-<<<<<<< HEAD
       <HintPath>C:\Users\user\Desktop\2020.3.14f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
-=======
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
->>>>>>> 90bbe803a99cd1a1a6f8de8b538345782dca050c
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
