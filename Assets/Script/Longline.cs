@@ -17,11 +17,12 @@ public class Longline : MonoBehaviour
     }
     private void Start()
     {
-        longnote = GetComponent<LineRenderer>();
+        //longnote = GetComponent<LineRenderer>();
        
     }
     public void SetupLine(Transform[] points)
     {
+        longnote = GetComponent<LineRenderer>();
         longnote.positionCount = points.Length;
         this.points = points;
     }

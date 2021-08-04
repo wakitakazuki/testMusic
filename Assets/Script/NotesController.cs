@@ -18,8 +18,6 @@ public class NotesController : MonoBehaviour
     {
         
 
-
-       
     }
 
     // Update is called once per frame
