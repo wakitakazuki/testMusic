@@ -5,7 +5,7 @@ using System;
 public class test1 : MonoBehaviour
 {
     [SerializeField] private Transform[] points;
-    [SerializeField] private Longline longline;
+    [SerializeField] private GameObject longlinepre;
 
     public void SetPoint(int arraynum ,Transform point)
     {
@@ -20,7 +20,8 @@ public class test1 : MonoBehaviour
 // Start is called before the first frame update
 void Start()
     {
-        longline.SetupLine(points);
+        GameObject obj = Instantiate(longlinepre, Vector3.zero, Quaternion.identity);
+        obj.GetComponent<Longline>().SetupLine(points);
     }
 
    
