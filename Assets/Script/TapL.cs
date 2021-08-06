@@ -8,6 +8,9 @@ public class TapL : MonoBehaviour
     private new Renderer renderer;
     private bool Lf = false;
 
+    GameSystem manager;
+
+    GameSystem.ResultPalam testPalam;
     private void Awake()
     {
         renderer = GetComponent<Renderer>();
@@ -30,6 +33,7 @@ public class TapL : MonoBehaviour
         {
             speed = 1;
         }
+        manager = GameObject.Find("GameManager").GetComponent<GameSystem>();
     }
 
     private void Update()
@@ -54,7 +58,7 @@ public class TapL : MonoBehaviour
         this.enabled = true;
         Debug.Log("Tap");
         Lf = true;
-
+        manager.DebugTap();
     }
     public void Exit()
     {
