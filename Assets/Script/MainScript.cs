@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MainScript : MonoBehaviour
 {
+    //現在使用していない動作統合用スクリプトファイル
 
     public GameObject linecolor1;
     public GameObject linecolor2;

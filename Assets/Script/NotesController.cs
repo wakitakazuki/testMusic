@@ -10,6 +10,7 @@ public class NotesController : MonoBehaviour
    
     public void SetTrack(Track num)
     {
+        //ƒm[ƒc¶¬‚ÉŒÄ‚Ño‚³‚ê‚é
         track = num;
     }
 
