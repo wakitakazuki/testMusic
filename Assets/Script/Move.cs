@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
+    //ノーツを移動させるスクリプト
     public float moveTime;
     //public GameObject destination;
     public GameObject lostPosition;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Longline : MonoBehaviour
 {
+    //ラインレンダラーの定義
     private LineRenderer longnote;
     private Transform[] points;
     //public Vector3[] position = new Vector3[] { };
@@ -12,6 +13,7 @@ public class Longline : MonoBehaviour
     {
         for(int i = 0; i < points.Length; i++)
         {
+            //位置座標の更新
             longnote.SetPosition(i, points[i].position);
         }
     }
@@ -22,6 +24,7 @@ public class Longline : MonoBehaviour
     }
     public void SetupLine(Transform[] points)
     {
+        //ロングノーツに配列を渡す
         longnote = GetComponent<LineRenderer>();
         longnote.positionCount = points.Length;
         this.points = points;

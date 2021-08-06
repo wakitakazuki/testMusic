@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class Audioset : MonoBehaviour
 {
+    //オーディオのオフセット用
     public GameObject AudioObject;
     AudioClip clip;
     // Start is called before the first frame update
     void Start()
     {
+        //オーディオにセットされた曲データの回収
         clip = AudioObject.GetComponent<AudioSource>().clip;
         startaudio();
     }
@@ -19,6 +21,7 @@ public class Audioset : MonoBehaviour
     {
 
     }
+    //オフセットの時間及びオフセット起動用
     void startaudio()
     {
         float[] allSamples = new float[clip.samples * clip.channels];
@@ -27,6 +30,7 @@ public class Audioset : MonoBehaviour
         Invoke("audioAwake", offset);
         Debug.Log(offset+"\n"+ clip.frequency * clip.channels);
     }
+    //オーディオのオブジェクトをアクティブ化
     void audioAwake()
     {
         AudioObject.SetActive(true);
