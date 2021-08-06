@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+
+//スコアランク
 public enum ScoreRankType
 {
     SSS = 0,
@@ -18,7 +21,7 @@ public class GameSystem : MonoBehaviour
 
 
 
-    
+    //各ランクのスコアボーダー
     public int[] m_rankBorder =
     {
         950000,
@@ -28,34 +31,39 @@ public class GameSystem : MonoBehaviour
         750000,
         700000   
     };
-    
+    //リザルトで使用するパラメータ
     public struct ResultPalam
     {
-        public string MusicTitle;
-
-        public int score;
-        public ScoreRankType Rank;
         
-        public int Perfect;
-        public int Great;
-        public int Good;
-        public int Bad;
-        public int Miss;
+        public string MusicTitle;   //ミュージックタイトル
 
-        public int MaxCombo;
-        public bool isFullCombo;
+        public int score;           //スコア       
+        public ScoreRankType Rank;  //スコアランク
+                                    
+        public int Perfect;         //Perfectの数        
+        public int Great;           //Greatの数
+        public int Good;            //Goodの数
+        public int Bad;             //Badの数
+        public int Miss;            //Missの数
+
+        public int MaxCombo;        //最大コンボ数
+        public bool isFullCombo;    //フルコンボしたかどうか
         //public bool isAllPerfect;
 
 
     }
-    
+    //リザルト変数
     public ResultPalam m_result;
+    //コンボ数
     public int Combo = 0;
-
+    //デバッグ用タップ処理
     public void DebugTap()
     {
+        //ランダム生成
         int a = Random.Range(0, 20);
-        
+        //中身適当だが判定処理が実装できれば書き換えて使うつもり。
+        //実際のスコア計算(仮)：１ノーツあたり　(1,000,000/ノーツ数)＊判定指数
+        //判定指数:Perfect 1.0,Great 0.9,Good 0.7,Bad 0.5, Miss 0.0
         switch (a)
         {
             case 0:
@@ -63,6 +71,7 @@ public class GameSystem : MonoBehaviour
                 m_result.score += 5000;
                 Combo++;
                 Debug.Log("Great!");
+                //最大コンボ更新！
                 if(m_result.MaxCombo<Combo)
                 {
                     m_result.MaxCombo = Combo;
@@ -107,13 +116,16 @@ public class GameSystem : MonoBehaviour
         }
 
     }
+    //リザルト用パラメータを取得
     public ResultPalam GetResultPalam()
     {
         return m_result;
     }
+    //格付け
     public void SetRank(int score)
     {
         int num = m_rankBorder[1];
+        //ランクボーダー/50000で整数範囲switch
         switch (score/50000)
         {
       
@@ -155,11 +167,14 @@ public class GameSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //リザルトシーンへGO
        if( Input.GetKeyDown(KeyCode.A))
        {
             SetRank(m_result.score);
             SceneManager.LoadScene("Result");
         }
+       //リザルトパラメータをデバッグ表示
         if (Input.GetKeyDown(KeyCode.Space))
         {
             
@@ -174,6 +189,7 @@ public class GameSystem : MonoBehaviour
         }
 
     }
+    //シーンが切り替わっても残り続ける
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);

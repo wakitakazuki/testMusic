@@ -207,6 +207,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Scan.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableStateMachineTrigger.cs" />
     <Compile Include="Assets\Script\MainScript.cs" />
+    <Compile Include="Assets\Script\MyaScript\GameSystem.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Scripts\Model\EditorState.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\OperatorObserverBase.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityWinRTBridge\Thread.cs" />
@@ -372,7 +373,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\StartWith.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Last.cs" />
-    <Compile Include="Assets\Script\MyaScript\GameSystem.cs" />
+    <Compile Include="Assets\Script\MyaScript\Blink.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NoteEditor-master\Assets\Shaders\Waveform.shader" />
