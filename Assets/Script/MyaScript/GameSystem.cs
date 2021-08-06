@@ -2,23 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+public enum ScoreRankType
+{
+    SSS = 0,
+    SS,
+    S,
+    A,
+    B,
+    C,
+    D,
+    TypeNum
+}
 public class GameSystem : MonoBehaviour
 {
 
 
 
-    public enum ScoreRankType
-    {
-        SSS = 0,
-        SS,
-        S,
-        A,
-        B,
-        C,
-        D,
-        TypeNum
-    }
+    
     public int[] m_rankBorder =
     {
         950000,
@@ -157,11 +157,12 @@ public class GameSystem : MonoBehaviour
     {
        if( Input.GetKeyDown(KeyCode.A))
        {
+            SetRank(m_result.score);
             SceneManager.LoadScene("Result");
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SetRank(m_result.score);
+            
             Debug.Log("score " + m_result.score +
                 "\nRank " +m_result.Rank+
                 "\nMaxCombo "+m_result.MaxCombo+
