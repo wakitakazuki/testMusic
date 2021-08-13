@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Result.unity
     guid: e130b014f8f968e42be07185c669171b
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: e7de12fe546684e48b6cdf177696f6e5
+  - enabled: 1
+    path: Assets/Scenes/MusicSelect.unity
+    guid: 4d1f6e1af4e6b8846b371309b52eeff4
+  - enabled: 1
+    path: Assets/Scenes/Mya_test.unity
+    guid: 0c6c6afd6d43ab54a9d73fd02d249778
   m_configObjects: {}
