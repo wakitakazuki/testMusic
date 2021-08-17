@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Behind
+    uniqueID: 2869058693
+    locked: 0
   - name: back
     uniqueID: 1722632091
     locked: 0
@@ -47,4 +50,7 @@ TagManager:
     locked: 0
   - name: front
     uniqueID: 1974090523
+    locked: 0
+  - name: fade
+    uniqueID: 1406073245
     locked: 0
