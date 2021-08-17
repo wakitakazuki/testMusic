@@ -9,19 +9,14 @@ public class MusicSelect : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        try
-        {
-            string[] names = Directory.GetFiles(@"/Assets", "*", SearchOption.AllDirectories);
+        string path = Application.dataPath + "/";
+            string[] names = Directory.GetFiles(@path, "*", SearchOption.AllDirectories);
             foreach (string name in names)
             {
                 Console.WriteLine(name);
                 Debug.Log(name);
             }
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e.ToString());
-        }
+        
     }
 
     // Update is called once per frame
