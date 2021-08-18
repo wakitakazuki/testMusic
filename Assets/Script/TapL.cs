@@ -8,12 +8,16 @@ public class TapL : MonoBehaviour
     public float speed = 1.0f;
     private new Renderer renderer;
     private bool Lf = false;
+    public GameObject idolchara;
+    public GameObject movechara;
 
     GameSystem manager;
 
     GameSystem.ResultPalam testPalam;
     private void Awake()
     {
+        idolchara.SetActive(true);
+        movechara.SetActive(false);
         renderer = GetComponent<Renderer>();
         
     }
@@ -64,10 +68,14 @@ public class TapL : MonoBehaviour
         Debug.Log("Tap");
         Lf = true;
         manager.DebugTap();
+        idolchara.SetActive(false);
+        movechara.SetActive(true);
     }
     public void Exit()
     {
         //判定外に出たときの消灯用フラグ
         Lf = false;
+        idolchara.SetActive(true);
+        movechara.SetActive(false);
     }
 }

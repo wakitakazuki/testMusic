@@ -69,6 +69,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Triggers\ObservableUpdateTrigger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Single.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Timestamp.cs" />
+    <Compile Include="Assets\Script\FadeC.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\ObservableLogger.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Diagnostics\LogEntry.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Notification.cs" />
@@ -352,6 +353,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Operators\FromCoroutine.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\UnityEngineBridge\Toolkit\ObjectPool.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.Events.cs" />
+    <Compile Include="Assets\Script\MyaScript\FileDisp.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Examples\Sample10_MainThreadDispatcher.cs" />
     <Compile Include="Assets\Script\TapL.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Observable.ErrorHandling.cs" />
@@ -379,11 +381,7 @@
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\StartWith.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\DefaultIfEmpty.cs" />
     <Compile Include="Assets\NoteEditor-master\Assets\Plugins\UniRx\Scripts\Operators\Last.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Script\FadeC.cs" />
-=======
-    <Compile Include="Assets\Script\MyaScript\FileDisp.cs" />
->>>>>>> 16f43fe31774e07f57c10095fa8be71728904c07
+    <Compile Include="Assets\Script\Clook.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NoteEditor-master\Assets\Shaders\Waveform.shader" />
