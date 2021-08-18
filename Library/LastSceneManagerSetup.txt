@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/SampleScene.unity
+=======
+- path: Assets/Scenes/MusicSelect.unity
+>>>>>>> 899a60767b3377f9b6166413f9a1725e00c8488e
   isLoaded: 1
   isActive: 1
   isSubScene: 0
