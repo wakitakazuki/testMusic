@@ -2974,8 +2974,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  idolchara: {fileID: 0}
-  movechara: {fileID: 0}
+  idolchara: {fileID: 471996381}
+  movechara: {fileID: 1664472482}
 --- !u!114 &1996060688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2989,8 +2989,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  idolchara: {fileID: 0}
-  movechara: {fileID: 0}
+  idolchara: {fileID: 471996381}
+  movechara: {fileID: 1664472482}
 --- !u!114 &1996060689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3004,8 +3004,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  idolchara: {fileID: 0}
-  movechara: {fileID: 0}
+  idolchara: {fileID: 471996381}
+  movechara: {fileID: 1664472482}
 --- !u!114 &1996060690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3019,8 +3019,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  idolchara: {fileID: 0}
-  movechara: {fileID: 0}
+  idolchara: {fileID: 471996381}
+  movechara: {fileID: 1664472482}
 --- !u!114 &1996060691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3034,8 +3034,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  idolchara: {fileID: 0}
-  movechara: {fileID: 0}
+  idolchara: {fileID: 471996381}
+  movechara: {fileID: 1664472482}
 --- !u!1 &2037955983
 GameObject:
   m_ObjectHideFlags: 0
